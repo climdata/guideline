@@ -18,11 +18,28 @@ output:
 * use utf-8 encoding
 * number format is english (1.000) - use point, no comma!
 
-### generated geoJSON files
+### License
+ 
+* Prefered license is Apache 2.0
+
+### Geographic Foci
+
+* Germany
+ * box: 5,45 / 15,55
+* Europe
+* ...
+
+### Time Resolution
+
+* yearly
+* monthly
+*...
+
+### Generated geoJSON files
 
 
 
-### generated CSV files
+### Generated CSV files
 
 * use descriptive, quoted header line
 * use really comma as seperator
@@ -36,13 +53,13 @@ output:
 * smaller chunks can be added directly
 * larger should be called via shell
 
-### shell-scripting
+### Shell-scripting
 
 * unix/linux based
 * install/use cygwin on Windows
 * use wget -q -P download <url> to download files in subdirectory if not direct target
 
-### visualisation
+### Visualisation
 
 * Add R code to visualize some of the data
 
