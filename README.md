@@ -25,7 +25,7 @@ output:
 ### Geographic Foci
 
 * Germany
- * box: 5,45 / 15,55
+    * box: 5,45 / 15,55
 * Europe
 * ...
 
@@ -37,6 +37,7 @@ output:
 
 ### Generated geoJSON files
 
+* https://geojson.org/
 
 
 ### Generated CSV files
@@ -44,14 +45,40 @@ output:
 * use descriptive, quoted header line
 * use really comma as seperator
 * quote strings, escape quote signes inside of them
-
+* Reserved columns
+    * year: integer 
+    * month: integer 1..12
+    * time: float: year with fractions (i.e. year + (month-1)/12)
 
 ### Used R-libraries
+
+* ggplot2 (Plotting)
+* SCI (SPI generation)
 
 ### Python code
 
 * smaller chunks can be added directly
 * larger should be called via shell
+* version is 3.x
+
+
+```python
+print("Hello from chunk directly")
+```
+
+```
+## Hello from chunk directly
+```
+
+
+```sh
+python ./source/hello.py
+```
+
+```
+## Hello from file in source folder
+```
+See also https://rstudio.github.io/reticulate/articles/r_markdown.html
 
 ### Shell-scripting
 

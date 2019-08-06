@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Geographic Foci
 
 * Germany
- * box: 5,45 / 15,55
+    * box: 5,45 / 15,55
 * Europe
 * ...
 
@@ -39,6 +39,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Generated geoJSON files
 
+* https://geojson.org/
 
 
 ### Generated CSV files
@@ -46,14 +47,30 @@ knitr::opts_chunk$set(echo = TRUE)
 * use descriptive, quoted header line
 * use really comma as seperator
 * quote strings, escape quote signes inside of them
-
+* Reserved columns
+    * year: integer 
+    * month: integer 1..12
+    * time: float: year with fractions (i.e. year + (month-1)/12)
 
 ### Used R-libraries
+
+* ggplot2 (Plotting)
+* SCI (SPI generation)
 
 ### Python code
 
 * smaller chunks can be added directly
 * larger should be called via shell
+* version is 3.x
+
+```{python python-direct, python.reticulate = FALSE}
+print("Hello from chunk directly")
+```
+
+```{sh python-file}
+python ./source/hello.py
+```
+See also https://rstudio.github.io/reticulate/articles/r_markdown.html
 
 ### Shell-scripting
 
