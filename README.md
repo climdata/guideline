@@ -14,6 +14,7 @@ output:
 
 ### General
 
+* RStudio with R markdown is needed for execution
 * language is english
 * use utf-8 encoding
 * number format is english (1.000) - use point, no comma!
@@ -33,7 +34,7 @@ output:
 
 * yearly
 * monthly
-*...
+* ...
 
 ### Generated geoJSON files
 
@@ -60,6 +61,8 @@ output:
 * smaller chunks can be added directly
 * larger should be called via shell
 * version is 3.x
+* i.e. https://www.spyder-ide.org/
+
 
 
 ```python
@@ -83,7 +86,7 @@ See also https://rstudio.github.io/reticulate/articles/r_markdown.html
 ### Shell-scripting
 
 * unix/linux based
-* install/use cygwin on Windows
+* install/use cygwin on Windows: https://www.cygwin.com/
 * use wget -q -P download <url> to download files in subdirectory if not direct target
 
 ### Visualisation
