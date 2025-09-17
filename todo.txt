@@ -23,6 +23,11 @@ https://eodhistoricaldata.com/
 https://pastglobalchanges.org/publications/pages-magazines/pages-magazine/7503
 
 
+#pegel,Q,
+https://pegelonline.wsv.de/webservice/dokuRestapi
+(only 1 month back!)
+
+
 
 
 
